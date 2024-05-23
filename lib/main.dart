@@ -108,7 +108,7 @@ class _CropRecommendationPageState extends State<CropRecommendationPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('Please connect to the internet to get location and results.', style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: Colors.deepPurple[400])),
+              Text('Please connect to the internet to get location and results \nOR \ninput values for all fields.', style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: Colors.deepPurple[400])),
               const SizedBox(height: 20,),
               
               Row(
