@@ -35,7 +35,9 @@ class _CropRecommendationPageState extends State<CropRecommendationPage> {
   String predictedCrop = '';
 
   Future<void> predictCrop() async {
-    var url = Uri.parse('http://10.0.2.2:5000/predict');
+    // var url = Uri.parse('http://10.0.2.2:5000/predict');
+    // var url = Uri.parse('http://excelsior1302.pythonanywhere.com/predict');
+    var url = Uri.parse('https://crop-recommendation-model-3.onrender.com/predict');
     
     var data = {
       'N': nitrogenController.text,
